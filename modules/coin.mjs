@@ -75,7 +75,15 @@ function countFlips(array) {
       }
     }
   }
-  return { "heads": numHeads, "tails": numTails };
+  if (numHeads == 0) {
+    return { "tails": numTails };
+  } else {
+    if (numTails == 0) {
+      return { "heads": numHeads };
+    } else {
+      return { "heads": numHeads, "tails": numTails };
+    }
+  }
 }
 
 /** Flip a coin!
