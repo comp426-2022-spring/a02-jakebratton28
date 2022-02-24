@@ -43,7 +43,7 @@ function coinFlip() {
  */
 
 function coinFlips(flips) {
-  let array = new String[];
+  let array = [];
   for (let i = 0; i < flips; i++) {
     array[i] = coinFlip();
   }
