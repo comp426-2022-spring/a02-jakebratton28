@@ -8,7 +8,7 @@ args['number'];
 
 const number = args.number;
 
-let array = [];
+let array = string[];
 
 if (typeof number === String || typeof number === 'undefined') {
     array = coinFlips(1);
