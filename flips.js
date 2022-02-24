@@ -10,7 +10,7 @@ const number = args.number;
 
 let array = [];
 
-if (typeof number === 'undefined') {
+if (typeof number === String) {
     array = coinFlips(1);
 } else {
     array = coinFlips(number);
