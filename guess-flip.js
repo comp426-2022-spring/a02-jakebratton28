@@ -14,4 +14,4 @@ if (call === "heads" || call === "tails") {
     console.log("Usage: node guess-flip --call=[heads|tails]");
 }
 
-// comment her
+// comment he
