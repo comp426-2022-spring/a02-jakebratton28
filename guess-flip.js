@@ -5,7 +5,7 @@ import minimist from "minimist";
 const args = minimist(process.argv.slice(2));
 
 args['call'];
-// hello there
+// hello ther
 const call = args.call;
 if (call === "heads" || call === "tails") {
     console.log(flipACoin(call));
